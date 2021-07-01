@@ -1,0 +1,229 @@
+body {
+  margin:0px;
+  font-family:'Source Sans Pro', 'Helvetica Neue', 'Helvetica', sans-serif;
+}
+
+div {
+  margin:0px;
+}
+
+.Screen_1 {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.Screen_1 .Row_13 {
+  display: grid;
+  grid-template-columns: 0% 0% 17% 1% auto;
+  grid-template-rows: auto 4% 16% 1% 27%;
+  margin-right: 6%;
+  margin-left: 3%;
+  min-height: 140px;
+  margin-top: 46px;
+ 
+}
+
+
+.Screen_1 .Text_Box_(Email) {
+  background-color: #ffffff;
+  color: #333333;
+  text-align: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  border: 1px solid #333333;
+  border-radius: 3px;
+  padding: 5px;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 6;
+
+}
+
+
+.Screen_1 .Label_8 {
+  color: #333333;
+  text-align: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 1.4;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 5;
+}
+
+
+.Screen_1 .Headline_1 {
+  color: #333333;
+  text-align: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: 1;
+  grid-column-start: 3;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+
+.Screen_1 .Row_14 {
+  display: grid;
+  grid-template-columns: 0% auto 5%;
+  grid-template-rows: 42% 1% auto;
+  margin-right: 80%;
+  margin-left: 3%;
+  min-height: 69px;
+  margin-top: 5px;
+}
+
+
+.Screen_1 .Password_(Hide_&_Show) {
+  background-color: #ffffff;
+  color: #333333;
+  text-align: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  border: 1px solid #333333;
+  border-radius: 3px;
+  padding: 5px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+
+.Screen_1 .Label {
+  color: #333333;
+  text-align: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 1.4;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+
+.Screen_1 .Button {
+  background-color: #268c55;
+  color: #ffffff;
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 1;
+  border: 1px solid #333333;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 89%;
+  margin-left: 3%;
+  min-height: 38px;
+  margin-top: 46px;
+}
+
+
+.Screen_1 .Hotspot {
+  cursor: pointer;
+  margin-right: 0%;
+  margin-left: 3%;
+  min-height: 19px;
+  margin-top: 13px;
+  margin-bottom: 8px;
+}
+
+
+.Screen_1 .Button_2 {
+  background-color: #268c55;
+  color: #ffffff;
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 3;
+  border: 1px solid #333333;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-right: 60%;
+  margin-left: 3%;
+  min-height: 38px;
+  margin-top: 34px;
+}
+
+
+
+.Screen_1 .Box_6 {
+  background-color: #c1dc9a;
+  color: #ffffff;
+  text-align: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 1.4;
+  display: flex;
+  flex-direction: column;
+  margin-right: 1%;
+  margin-left: 1%;
+  min-height: 216px;
+  margin-top: 80px;
+  margin-bottom: 4px;
+}
+
+.Screen_1 .Box {
+  background-color: #ffffff;
+  color: #ffffff;
+  text-align: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 1.4;
+  display: flex;
+  flex-direction: column;
+  margin-right: 80%;
+  margin-left: 1%;
+  min-height: 216px;
+  margin-top: 50px;
+  margin-bottom: 4px;
+}
+
+.Screen_1 .Headline {
+  color: #333333;
+  text-align: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: 1;
+  margin-right: 69%;
+  margin-left: 4%;
+  min-height: 36px;
+  margin-top: 32px;
+}
+
+
+.Screen_1 .Headline_4 {
+  color: #333333;
+  text-align: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 1;
+  margin-right: 62%;
+  margin-left: 4%;
+  min-height: 111px;
+  margin-top: 12px;
+  margin-bottom: 25px;
+}
+
+

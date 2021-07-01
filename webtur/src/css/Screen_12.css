@@ -1,0 +1,546 @@
+body {
+  margin:0px;
+  font-family:'Source Sans Pro', 'Helvetica Neue', 'Helvetica', sans-serif;
+}
+
+div {
+  margin:0px;
+}
+
+.Screen_5 {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.Screen_5 .Headline_1 {
+  color: #333333;
+  text-align: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: 1;
+  margin-right: 7%;
+  margin-left: 2%;
+  min-height: 78px;
+  margin-top: 50px;
+}
+
+
+.Screen_5 .Row_15 {
+  display: grid;
+  grid-template-columns: 15% 15% 2% 16% 3% auto;
+  grid-template-rows: 24% auto 24%;
+  margin-right: 0%;
+  margin-left: 1%;
+  min-height: 58px;
+  margin-top: 10px;
+}
+
+
+.Screen_5 .Box_1 {
+  background-color: #eecb4f;
+  color: #ffffff;
+  text-align: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 1.4;
+  display: flex;
+  flex-direction: column;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+
+.Screen_5 .Row_19 {
+  display: grid;
+  grid-template-columns: 4% auto 20%;
+  grid-template-rows: 11% auto 11%;
+  margin-right: 9%;
+  margin-left: 11%;
+  min-height: 38px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+.Screen_5 .Hotspot {
+  cursor: pointer;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+.Screen_5 a:link {text-decoration: none}
+
+.Screen_5 .Label_3 {
+  color: #333333;
+  text-align: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: 1;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+
+.Screen_5 .Box_2 {
+  background-color: #eecb5f;
+  color: #ffffff;
+  text-align: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 1.4;
+  display: flex;
+  flex-direction: column;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+
+.Screen_5 .Row_21 {
+  display: grid;
+  grid-template-columns: 5% auto 7%;
+  grid-template-rows: 6% auto 11%;
+  margin-right: 8%;
+  margin-left: 11%;
+  min-height: 36px;
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+
+
+.Screen_5 .Hotspot_1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+
+.Screen_5 .Label {
+  color: #333333;
+  text-align: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: 1;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+
+.Screen_5 .Box_3 {
+  background-color: #eecb6f;
+  color: #ffffff;
+  text-align: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 1.4;
+  display: flex;
+  flex-direction: column;
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+
+.Screen_5 .Hotspot_2 {
+  cursor: pointer;
+  margin-right: 9%;
+  margin-left: 5%;
+  min-height: 38px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+.Screen_5 .Label_1 {
+  color: #333333;
+  text-align: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: 1;
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+
+.Screen_5 .Box_5 {
+  background-color: #eecb8f;
+  color: #ffffff;
+  text-align: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 1.4;
+  display: flex;
+  flex-direction: column;
+  grid-column-start: 5;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+
+.Screen_5 .Row_20 {
+  display: grid;
+  grid-template-columns: 4% auto 28%;
+  grid-template-rows: 19% auto 10%;
+  margin-right: 46%;
+  margin-left: 3%;
+  min-height: 42px;
+  margin-top: 6px;
+  margin-bottom: 10px;
+}
+
+
+.Screen_5 .Hotspot_3 {
+  cursor: pointer;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+
+.Screen_5 .Label_2 {
+  color: #333333;
+  text-align: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: 1;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+
+.Screen_5 .Row_16 {
+  display: grid;
+  grid-template-columns: auto 2% 7% auto 2% 7% 17%;
+  grid-template-rows: 36% 2% 9% auto 2%;
+  margin-right: 50%;
+  margin-left: 3%;
+  min-height: 64px;
+  margin-top: 30px;
+}
+
+
+.Screen_5 .Label_4 {
+  color: #333333;
+  text-align: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 1.4;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+
+.Screen_5 .Text_Box {
+  background-color: #ffffff;
+  color: #333333;
+  text-align: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  border: 1px solid #333333;
+  border-radius: 3px;
+  padding: 5px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 6;
+}
+
+
+.Screen_5 .Label_9 {
+  color: #333333;
+  text-align: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 1.4;
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+
+.Screen_5 .Text_Box_5 {
+  background-color: #ffffff;
+  color: #333333;
+  text-align: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  border: 1px solid #333333;
+  border-radius: 3px;
+  padding: 5px;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 6;
+}
+
+
+.Screen_5 .Button_1 {
+  background-color: #268c55;
+  color: #ffffff;
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 3;
+  border: 1px solid #333333;
+  border-radius: 3px;
+  grid-column-start: 7;
+  grid-column-end: 8;
+  grid-row-start: 2;
+  grid-row-end: 5;
+}
+
+
+.Screen_5 .Row_17 {
+  display: grid;
+  grid-template-columns: auto 2% 7% auto 2% 7% 17%;
+  grid-template-rows: 38% 2% 6% auto 2%;
+  margin-right: 50%;
+  margin-left: 3%;
+  min-height: 66px;
+  margin-top: 11px;
+}
+
+
+.Screen_5 .Label_5 {
+  color: #333333;
+  text-align: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 1.4;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+
+.Screen_5 .Text_Box_1 {
+  background-color: #ffffff;
+  color: #333333;
+  text-align: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  border: 1px solid #333333;
+  border-radius: 3px;
+  padding: 5px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 5;
+}
+
+
+.Screen_5 .Label_8 {
+  color: #333333;
+  text-align: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 1.4;
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+
+.Screen_5 .Text_Box_4 {
+  background-color: #ffffff;
+  color: #333333;
+  text-align: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  border: 1px solid #333333;
+  border-radius: 3px;
+  padding: 5px;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 5;
+}
+
+
+.Screen_5 .Button_2 {
+  background-color: #268c55;
+  color: #ffffff;
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 3;
+  border: 1px solid #333333;
+  border-radius: 3px;
+  grid-column-start: 7;
+  grid-column-end: 8;
+  grid-row-start: 3;
+  grid-row-end: 6;
+}
+
+
+.Screen_5 .Row_18 {
+  display: grid;
+  grid-template-columns: 33% 2% auto 17%;
+  grid-template-rows: 37% 3% 4% auto 3%;
+  margin-right: 50%;
+  margin-left: 3%;
+  min-height: 67px;
+  margin-top: 10px;
+}
+
+
+.Screen_5 .Label_6 {
+  color: #333333;
+  text-align: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 1.4;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+
+.Screen_5 .Text_Box_2 {
+  background-color: #ffffff;
+  color: #333333;
+  text-align: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  border: 1px solid #333333;
+  border-radius: 3px;
+  padding: 5px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 5;
+}
+
+
+.Screen_5 .Button_3 {
+  background-color: #268c55;
+  color: #ffffff;
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 3;
+  border: 1px solid #333333;
+  border-radius: 3px;
+  grid-column-start: 9;
+  grid-column-end: 10;
+  grid-row-start: 3;
+  grid-row-end: 6;
+}
+
+
+.Screen_5 .Button {
+  background-color: #268c55;
+  color: #ffffff;
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 3;
+  border: 1px solid #333333;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-right: 1%;
+  margin-left: 91%;
+  min-height: 38px;
+  margin-top: 9px;
+}
+
+
+.Screen_5 .Box_6 {
+  background-color: #c1dc9a;
+  color: #ffffff;
+  text-align: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 1.4;
+  display: flex;
+  flex-direction: column;
+  margin-right: 1%;
+  margin-left: 1%;
+  min-height: 216px;
+  margin-top: 7px;
+  margin-bottom: 4px;
+}
+
+
+.Screen_5 .Headline {
+  color: #333333;
+  text-align: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: 1;
+  margin-right: 69%;
+  margin-left: 4%;
+  min-height: 36px;
+  margin-top: 32px;
+}
+
+
+.Screen_5 .Headline_4 {
+  color: #333333;
+  text-align: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 1;
+  margin-right: 62%;
+  margin-left: 4%;
+  min-height: 111px;
+  margin-top: 12px;
+  margin-bottom: 25px;
+}
+
+

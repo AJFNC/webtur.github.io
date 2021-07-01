@@ -1,0 +1,265 @@
+body {
+  margin:0px;
+  font-family:'Source Sans Pro', 'Helvetica Neue', 'Helvetica', sans-serif;
+}
+
+div {
+  margin:0px;
+}
+
+.Screen_8 {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.Screen_8 .Box {
+  background-color: #333333;
+  color: #ffffff;
+  text-align: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 1.4;
+  border: 13px solid #333333;
+  display: flex;
+  flex-direction: column;
+  margin-right: 0%;
+  margin-left: 1%;
+  min-height: 170px;
+  margin-top: 10px;
+}
+
+
+.Screen_8 .Row_8 {
+  display: grid;
+  grid-template-columns: auto 13% 23%;
+  grid-template-rows: 19% auto 19%;
+  margin-right: 3%;
+  margin-left: 4%;
+  min-height: 70px;
+  margin-top: 20px;
+}
+
+.Screen_8 a:link {text-decoration: none}
+
+.Screen_8 .Headline_1 {
+  color: #eecb8f;
+  text-align: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 80px;
+  letter-spacing: 0;
+  line-height: 1;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+
+.Screen_8 .Headline_3 {
+  color: #eecb8f;
+  text-align: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: 1;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+
+.Screen_8 .Headline_2 {
+  color: #e8d4d4;
+  text-align: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: 1;
+  margin-right: 5%;
+  margin-left: 4%;
+  min-height: 32px;
+  margin-top: 36px;
+  margin-bottom: 38px;
+}
+
+
+.Screen_8 .Row_7 {
+  display: grid;
+  grid-template-columns: 37% 1% auto 2% 0% 8% 0% 2% 6% 0% 0% 1% 1%;
+  grid-template-rows: 1% 9% 2% 13% 4% 14% 4% auto 3% 2% 7% 2% 3%;
+  margin-right: 0%;
+  margin-left: 1%;
+  min-height: 279px;
+  margin-top: 10px;
+}
+
+
+.Screen_8 .Image {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 13;
+  height:100%;
+  width:100%;
+}
+
+
+.Screen_8 .Paragraph {
+  color: #333333;
+  text-align: justify;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 1.4;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 13;
+}
+
+
+.Screen_8 .Label_5 {
+  color: #333333;
+  text-align: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 1.4;
+  grid-column-start: 5;
+  grid-column-end: 13;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+
+.Screen_8 .Text_Box_1 {
+  background-color: #ffffff;
+  color: #333333;
+  text-align: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  border: 1px solid #333333;
+  border-radius: 3px;
+  padding: 5px;
+  grid-column-start: 5;
+  grid-column-end: 11;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+
+.Screen_8 .Star_Rating {
+  color: #333333;
+  cursor: pointer;
+  grid-column-start: 5;
+  grid-column-end: 8;
+  grid-row-start: 11;
+  grid-row-end: 12;
+}
+
+
+.Screen_8 .Text_Area {
+  background-color: #ffffff;
+  color: #333333;
+  text-align: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  border: 1px solid #333333;
+  border-radius: 3px;
+  padding: 5px;
+  grid-column-start: 6;
+  grid-column-end: 12;
+  grid-row-start: 8;
+  grid-row-end: 9;
+}
+
+
+.Screen_8 .Button {
+  background-color: #268c55;
+  color: #ffffff;
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 3;
+  border: 1px solid #333333;
+  border-radius: 3px;
+  grid-column-start: 7;
+  grid-column-end: 10;
+  grid-row-start: 6;
+  grid-row-end: 7;
+}
+
+
+.Screen_8 .Button_1 {
+  background-color: #268c55;
+  color: #ffffff;
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 1;
+  border: 1px solid #333333;
+  border-radius: 3px;
+  cursor: pointer;
+  grid-column-start: 9;
+  grid-column-end: 14;
+  grid-row-start: 10;
+  grid-row-end: 14;
+}
+
+
+.Screen_8 .Box_6 {
+  background-color: #c1dc9a;
+  color: #ffffff;
+  text-align: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 1.4;
+  display: flex;
+  flex-direction: column;
+  margin-right: 0%;
+  margin-left: 1%;
+  min-height: 216px;
+  margin-top: 3px;
+  margin-bottom: 6px;
+}
+
+
+.Screen_8 .Headline {
+  color: #333333;
+  text-align: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: 1;
+  margin-right: 69%;
+  margin-left: 4%;
+  min-height: 36px;
+  margin-top: 32px;
+}
+
+
+.Screen_8 .Headline_4 {
+  color: #333333;
+  text-align: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 1;
+  margin-right: 62%;
+  margin-left: 4%;
+  min-height: 111px;
+  margin-top: 12px;
+  margin-bottom: 25px;
+}
+
+

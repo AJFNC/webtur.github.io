@@ -1,1 +1,1 @@
-# http://webtur.github.io
+# http://webtur.github.io/webtur/webtur.php
